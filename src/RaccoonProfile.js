@@ -9,7 +9,7 @@ function RaccoonProfile({ name, faveFood = 'pizza'}) {
 
     return (
         <div>
-            <p>Name: { name }</p>
+            <h2>Name: { name }</h2>
             <p>Favorite Food: { faveFood }</p>
         </div>
     )
